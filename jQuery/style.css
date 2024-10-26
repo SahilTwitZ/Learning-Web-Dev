@@ -1,0 +1,22 @@
+h1{
+    color: red;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.big-title{
+    font-size: 10rem;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.add-padding{
+    padding-left: 10rem;
+}
+
+.colourful-buttons{
+    background-color: greenyellow;
+    font-size: larger;
+}
