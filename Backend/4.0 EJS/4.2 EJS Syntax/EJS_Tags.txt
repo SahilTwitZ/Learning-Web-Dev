@@ -1,0 +1,9 @@
+EJS TAGS
+
+1. <%= VARIABLE %>              JS OUTPUT
+2. <% console.log("Hello") %>   JS EXECUTE
+3. <%- <h1>HELLO</h1> %>        RENDER HTML
+4. <%% %%>                      SHOW <% OR %>
+5. <%# This is a comment %>     COMMENT
+6. <%- include("HEADER.JS) %>   INSERT ANOTHER EJS FILE
+
