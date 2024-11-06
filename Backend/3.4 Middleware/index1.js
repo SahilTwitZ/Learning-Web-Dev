@@ -10,15 +10,12 @@ import { fileURLToPath } from "url";
 // Get the directory name of the current module file
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// Create an instance of an Express application
 const app = express();
-
-// Define the port number to listen on
 const port = 3000;
 
 // Middleware to parse URL-encoded bodies
 import bodyParser from "body-parser";
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));  
 
 // Define a route handler for the root URL ("/")
 app.get("/", (req, res) => {
