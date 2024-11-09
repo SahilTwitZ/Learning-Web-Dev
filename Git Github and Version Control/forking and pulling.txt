@@ -1,0 +1,52 @@
+Fork and Pull Workflow
+
+The fork and pull workflow is a common way of contributing to open-source projects on platforms like GitHub. It allows developers to make changes to a project without needing direct write access to the main repository. Here’s how it works:
+
+1. **Fork the Repository**: 
+    - Go to the repository you want to contribute to on GitHub.
+    - Click the "Fork" button at the top right corner of the page. This creates a copy of the repository under your GitHub account.
+
+2. **Clone the Forked Repository**:
+    - Clone the forked repository to your local machine using the following command:
+      ```
+      git clone https://github.com/your-username/repository-name.git
+      ```
+    - Navigate into the cloned repository:
+      ```
+      cd repository-name
+      ```
+
+3. **Create a New Branch**:
+    - Create a new branch to work on your changes:
+      ```
+      git checkout -b feature-branch-name
+      ```
+
+4. **Make Changes and Commit**:
+    - Make the necessary changes to the codebase.
+    - Stage the changes:
+      ```
+      git add .
+      ```
+    - Commit the changes with a descriptive message:
+      ```
+      git commit -m "Description of the changes"
+      ```
+
+5. **Push Changes to GitHub**:
+    - Push your changes to your forked repository:
+      ```
+      git push origin feature-branch-name
+      ```
+
+6. **Create a Pull Request**:
+    - Go to the original repository on GitHub.
+    - Click the "New Pull Request" button.
+    - Select the branch you just pushed to your forked repository and compare it with the base branch of the original repository.
+    - Provide a title and description for your pull request, then click "Create Pull Request".
+
+7. **Review and Merge**:
+    - The repository maintainers will review your pull request.
+    - They may request changes or approve and merge your pull request into the main repository.
+
+By following this workflow, you can contribute to projects without needing direct write access, and maintainers can review and manage contributions effectively.
