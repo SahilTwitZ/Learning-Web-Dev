@@ -1,0 +1,11 @@
+1. API Endpoint:
+    Example: https://bored-api.appbrewery/endpoint
+
+2. Query Parameter:
+    Example: https://bored-api.appbrewery/endpoint?query=value
+
+3. Multiple Query Parameters:
+    Example: https://bored-api.appbrewery/endpoint?query=value&query2=value
+
+4. Path Parameters:
+    Example: https://bored-api.appbrewery/endpoint/{path-parameter}
