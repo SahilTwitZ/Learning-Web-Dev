@@ -21,7 +21,7 @@ app.get("/", async (req, res) => {
     console.error("Failed to make request:", error.message);
     res.render("index.ejs", {
       error: error.message,
-    }); 
+    });
   }
 });
 
